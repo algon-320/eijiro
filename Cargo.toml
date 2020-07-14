@@ -1,0 +1,17 @@
+[package]
+name = "eijiro"
+version = "0.1.0"
+authors = ["algon-320 <algon.0320@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eijiro-parser = { path = "./eijiro-parser" }
+clap = "2.33"
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+serde_yaml = "0.8"
+log = "0.4"
+pretty_env_logger = "0.4"
+bincode = "1.2.1"

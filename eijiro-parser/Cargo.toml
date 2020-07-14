@@ -1,0 +1,15 @@
+[package]
+name = "eijiro-parser"
+version = "0.1.0"
+authors = ["algon-320 <algon.0320@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+fst = {version = "0.4", features=["levenshtein"]}
+regex = "1"
+anyhow = "1.0"
+lazy_static = "1.4.0"
+serde = { version = "1.0", features = ["derive"] }
+bincode = "1.2.1"
